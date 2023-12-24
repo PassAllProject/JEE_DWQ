@@ -36,7 +36,7 @@ export default {
         series: [{
           name: '数量',
           type: 'bar',
-          data: [user.data.length, orders.data.length, reviews.data.length, ai.data.length, pets.data.data.total]
+          data: [user.data.length, orders.data.length, reviews.data.length, ai.data.length, pets.data.data]
         }]
       };
 

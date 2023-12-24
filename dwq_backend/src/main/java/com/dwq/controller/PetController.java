@@ -67,5 +67,10 @@ public class PetController {
             return RestBean.success(divPage);
         }
     }
+    @GetMapping("/{id}")
+    @Operation(summary = "获取宠物")
+    public RestBean<Object> getID(@PathVariable Integer id){
+        return RestBean.success(petService.getPetId(id));
+    }
 }
 
